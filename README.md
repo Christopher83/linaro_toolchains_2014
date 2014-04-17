@@ -151,3 +151,121 @@ ________________________________________________________________________________
 - Softfp
 - Multilib support
 - Alias "arm-gnueabi-"
+
+___________________________________________________________________________________________________________
+
+                    TOOLCHAIN arm-cortex_a15-linux-gnueabihf-linaro_4.7.4-2014.04
+
+- Built using latest Linaro Crosstool-NG toolchain builder (linaro-1.13.1)
+- Cortex-A15 specific settings for target architecture and target optimizations:
+    CT_ARCH_ARCH=""
+    CT_ARCH_CPU="cortex-a15"
+    CT_ARCH_TUNE="cortex-a15"
+    CT_ARCH_FPU="neon-vfpv4"
+    CT_ARCH_FLOAT_HW=y
+    CT_ARCH_FLOAT="hard"
+    CT_ARCH_SUPPORT_SOFTFP=y
+    CT_ARCH_ARM_MODE="arm"
+    CT_ARCH_ARM_MODE_ARM=y
+
+- Linux Kernel 3.4.87
+- Linaro GCC 4.7-2014.04 (4.7.4)
+- Linaro Binutils 2.24-2014.03
+- Linaro EGLibc 2.19-2014.04 prebuilt
+- Linaro GDB 7.6.1-2013.10
+- GMP 5.0.2
+- MPFR 3.1.2
+- PPL 0.11.2
+- CLOOG 0.15.11
+- MPC 1.0.2
+- Hard float with soft float support
+- Multilib support
+- Alias "arm-gnueabi-"
+
+___________________________________________________________________________________________________________
+
+                    TOOLCHAIN arm-cortex_a9-linux-gnueabihf-linaro_4.7.4-2014.04
+
+- Built using latest Linaro Crosstool-NG toolchain builder (linaro-1.13.1)
+- Cortex-A9 specific settings for target architecture and target optimizations:
+    CT_ARCH_ARCH="armv7-a"
+    CT_ARCH_CPU="cortex-a9"
+    CT_ARCH_TUNE="cortex-a9"
+    CT_ARCH_FPU="neon"
+    CT_ARCH_FLOAT_HW=y
+    CT_ARCH_FLOAT="hard"
+    CT_ARCH_SUPPORT_SOFTFP=y
+    CT_ARCH_ARM_MODE="arm"
+    CT_ARCH_ARM_MODE_ARM=y
+
+- Linux Kernel 3.4.87
+- Linaro GCC 4.7-2014.04 (4.7.4)
+- Linaro Binutils 2.24-2014.03
+- Linaro EGLibc 2.19-2014.04 prebuilt
+- Linaro GDB 7.6.1-2013.10
+- GMP 5.0.2
+- MPFR 3.1.2
+- PPL 0.11.2
+- CLOOG 0.15.11
+- MPC 1.0.2
+- Hard float with soft float support
+- Multilib support
+- Alias "arm-gnueabi-"
+
+___________________________________________________________________________________________________________
+
+                    TOOLCHAIN arm-cortex_a8-linux-gnueabi-linaro_4.7.4-2014.04
+
+- Built using latest Linaro Crosstool-NG toolchain builder (linaro-1.13.1)
+- Cortex-A8 specific settings for target architecture and target optimizations:
+    CT_ARCH_ARCH="armv7-a"
+    CT_ARCH_CPU="cortex-a8"
+    CT_ARCH_TUNE="cortex-a8"
+    CT_ARCH_FPU="neon"
+    CT_ARCH_FLOAT_SOFTFP=y
+    CT_ARCH_FLOAT="softfp"
+    CT_ARCH_ARM_MODE="arm"
+    CT_ARCH_ARM_MODE_ARM=y
+
+- Linux Kernel 3.0.101
+- Linaro GCC 4.7-2014.04 (4.7.4)
+- Linaro Binutils 2.24-2014.03
+- Linaro EGLibc 2.19-2014.04 prebuilt
+- Linaro GDB 7.6.1-2013.10
+- GMP 5.0.2
+- MPFR 3.1.2
+- PPL 0.11.2
+- CLOOG 0.15.11
+- MPC 1.0.2
+- Softfp
+- Multilib support
+- Alias "arm-gnueabi-"
+
+___________________________________________________________________________________________________________
+
+                      TOOLCHAIN arm-linux-gnueabi-linaro_4.7.4-2014.04
+
+- Built using latest Linaro Crosstool-NG toolchain builder (linaro-1.13.1)
+- Generic ARM settings (inspired by latest Linaro builds) for target architecture and target optimizations:
+    CT_ARCH_ARCH="armv7-a"
+    CT_ARCH_CPU=""
+    CT_ARCH_TUNE="cortex-a9"
+    CT_ARCH_FPU="vfpv3-d16"
+    CT_ARCH_FLOAT_SOFTFP=y
+    CT_ARCH_FLOAT="softfp"
+    CT_ARCH_ARM_MODE="thumb"
+    CT_ARCH_ARM_MODE_THUMB=y
+
+- Linux Kernel 3.0.101
+- Linaro GCC 4.7-2014.04 (4.7.4)
+- Linaro Binutils 2.24-2014.03
+- Linaro EGLibc 2.19-2014.04 prebuilt
+- Linaro GDB 7.6.1-2013.10
+- GMP 5.0.2
+- MPFR 3.1.2
+- PPL 0.11.2
+- CLOOG 0.15.11
+- MPC 1.0.2
+- Softfp
+- Multilib support
+- Alias "arm-gnueabi-"
